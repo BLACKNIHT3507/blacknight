@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    gap: 10%;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 14%;
+}
+ 
+img{
+    width: 70%;
+    height: 70%;
+}
+ 
+.card{
+    background-color: rgb(192, 192, 192);
+    border-radius: 2%;
+    padding: 2%;
+    gap: 2%;
+}
+ 
+body{
+    background-color: rgb(76, 76, 76);
+}
+ 
+header{
+    background-color: black;
+    color: rgb(175, 40, 40);
+}
+ 
+footer{
+    background-color: black;
+    color: rgb(175, 40, 40);
+    display: grid;
+    grid-template-columns: repeat(3, 40%);
+    padding: 5%;
+}
